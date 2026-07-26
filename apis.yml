@@ -1,7 +1,23 @@
 aid: ephemeral
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ephemeral.png
 name: Ephemeral
-description: Ephemeral is a company surfaced as a portfolio company of canaan-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Ephemeral is a body-art company that makes semi-permanent, made-to-fade tattoos using a proprietary
+  vegan, medical-grade polymer ink engineered to fade from the skin over roughly one to two years. Backed by
+  Canaan Partners, the company sells direct-to-consumer through certified partner tattoo artists in select
+  cities and business-to-business by supplying its Generation-3 ink to professional artists. It is a consumer
+  and physical-product business, not a technology or API provider - as of this enrichment pass it publishes no
+  public API, SDK, developer portal, or developer documentation.
 url: https://raw.githubusercontent.com/api-evangelist/ephemeral/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +25,25 @@ x-backed-by:
 - canaan-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment:
+  last_run: '2026-07-19'
+  api_surface: none
+  finding: Consumer made-to-fade tattoo company; no public API, SDK, developer portal, or docs found. No API
+    artifacts applicable.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Tattoos
+- Body Art
+- Cosmetics
+- Consumer
+- Direct to Consumer
+- Health and Beauty
+common:
+- type: Website
+  url: https://ephemeral.tattoo
 apis: []
 maintainers:
 - FN: Kin Lane
