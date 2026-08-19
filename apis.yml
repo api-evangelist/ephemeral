@@ -30,7 +30,7 @@ x-enrichment:
   api_surface: none
   finding: Consumer made-to-fade tattoo company; no public API, SDK, developer portal, or docs found. No API
     artifacts applicable.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
